@@ -3,10 +3,14 @@ body {
     padding: 0;
 }
 
+nav {
+    height: 13vh;
+    display: flex;
+    background-color: antiquewhite;
+}
+
 .container {
     width: 100%;
-    height: 80px;
-    background-color: antiquewhite;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,4 +33,30 @@ body {
     border-style: solid;
     border-color: blue;
     border-width: 2px;
+}
+
+.contenido {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.noticias {
+    width: 75%;
+    background: azure;
+}
+
+.menulateral {
+    width: 25%;
+    background: rgb(219, 211, 227);
+}
+
+.piepagina {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
 }
